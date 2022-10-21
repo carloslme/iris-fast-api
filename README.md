@@ -33,7 +33,8 @@ pip install -r requirements.txt
 Run next command to start the api locally
 
 ```
-uvicorn iris.app:app --port 5000 --reload
+uvicorn iris.v1.app:app --port 5001 --reload
+uvicorn iris.v2.app:app --port 5002 --reload
 ```
 ## Test request
 The input is a JSON with the following fields:
