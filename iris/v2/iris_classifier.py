@@ -38,5 +38,4 @@ class IrisClassifier:
         return {'class': self.iris_type[np.argmax(prediction)],
                 'probability': round(max(prediction[0]), 2)}
 
-iris = IrisClassifier()
 
